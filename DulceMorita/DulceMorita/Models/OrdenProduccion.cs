@@ -9,7 +9,7 @@ public partial class OrdenProduccion
 
     public int ProduccionTotal { get; set; }
 
-    public byte[] FechaCreacion { get; set; } = null!;
+    public string FechaCreacion { get; set; } = null!;
 
     public int? FkProducto { get; set; }
 

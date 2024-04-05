@@ -34,6 +34,46 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Administrador/freelance/cSharp/DulceMoritaERP/DulceMorita/DulceMorita/Views/LoteProduccion/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG90ZVByb2R1Y2Npb25cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/freelance/cSharp/DulceMoritaERP/DulceMorita/DulceMorita/Views/LoteProduccion/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG90ZVByb2R1Y2Npb25cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/freelance/cSharp/DulceMoritaERP/DulceMorita/DulceMorita/Views/LoteProduccion/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG90ZVByb2R1Y2Npb25cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/freelance/cSharp/DulceMoritaERP/DulceMorita/DulceMorita/Views/LoteProduccion/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG90ZVByb2R1Y2Npb25cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/freelance/cSharp/DulceMoritaERP/DulceMorita/DulceMorita/Views/LoteProduccion/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG90ZVByb2R1Y2Npb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/freelance/cSharp/DulceMoritaERP/DulceMorita/DulceMorita/Views/Notificacion/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2FjaW9uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/freelance/cSharp/DulceMoritaERP/DulceMorita/DulceMorita/Views/Notificacion/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2FjaW9uXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/freelance/cSharp/DulceMoritaERP/DulceMorita/DulceMorita/Views/Notificacion/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2FjaW9uXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/freelance/cSharp/DulceMoritaERP/DulceMorita/DulceMorita/Views/Notificacion/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2FjaW9uXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/freelance/cSharp/DulceMoritaERP/DulceMorita/DulceMorita/Views/Notificacion/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2FjaW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Administrador/freelance/cSharp/DulceMoritaERP/DulceMorita/DulceMorita/Views/Operario/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmFyaW9cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -52,6 +92,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Administrador/freelance/cSharp/DulceMoritaERP/DulceMorita/DulceMorita/Views/Operario/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmFyaW9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/freelance/cSharp/DulceMoritaERP/DulceMorita/DulceMorita/Views/OrdenProduccions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5Qcm9kdWNjaW9uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/freelance/cSharp/DulceMoritaERP/DulceMorita/DulceMorita/Views/OrdenProduccions/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5Qcm9kdWNjaW9uc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/freelance/cSharp/DulceMoritaERP/DulceMorita/DulceMorita/Views/OrdenProduccions/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5Qcm9kdWNjaW9uc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/freelance/cSharp/DulceMoritaERP/DulceMorita/DulceMorita/Views/OrdenProduccions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5Qcm9kdWNjaW9uc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/freelance/cSharp/DulceMoritaERP/DulceMorita/DulceMorita/Views/OrdenProduccions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5Qcm9kdWNjaW9uc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Administrador/freelance/cSharp/DulceMoritaERP/DulceMorita/DulceMorita/Views/Shared/Error.cshtml]

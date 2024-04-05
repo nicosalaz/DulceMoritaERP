@@ -1,0 +1,75 @@
+﻿@model IEnumerable<DulceMorita.Models.Notificacion>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Notificaciones</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Buenas)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Malas)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FInicio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FFin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GastosAdicionales)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Obseraciones)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FkLoteNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FkOpeNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Buenas)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Malas)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FInicio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FFin)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GastosAdicionales)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Obseraciones)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FkLoteNavigation.IdLote)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FkOpeNavigation.NombreCompleto)
+            </td>
+            <td>
+                <a class="btn btn-info" asp-action="Details" asp-route-id="@item.IdNotificacion">Details</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

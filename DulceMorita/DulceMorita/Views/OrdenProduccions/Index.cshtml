@@ -1,0 +1,45 @@
+﻿@model IEnumerable<DulceMorita.Models.OrdenProduccion>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Ordenes de producción</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ProduccionTotal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaCreacion)
+             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FkProductoNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProduccionTotal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaCreacion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FkProductoNavigation.Nombre)
+            </td>
+            <td>
+                <a class="btn btn-info" asp-action="Details" asp-route-id="@item.IdOrden">Details</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

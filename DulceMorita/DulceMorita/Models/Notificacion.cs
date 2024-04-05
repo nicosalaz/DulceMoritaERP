@@ -15,9 +15,9 @@ public partial class Notificacion
 
     public int Malas { get; set; }
 
-    public DateTime FInicio { get; set; }
+    public string FInicio { get; set; } = null!;
 
-    public DateTime FFin { get; set; }
+    public string FFin { get; set; } = null!;
 
     public int GastosAdicionales { get; set; }
 

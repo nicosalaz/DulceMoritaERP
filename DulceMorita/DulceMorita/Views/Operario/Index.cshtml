@@ -6,12 +6,13 @@
 
 <h1>Operarios</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+
 <table class="table">
     <thead>
         <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IdOperario)
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.NombreCompleto)
             </th>
@@ -22,12 +23,13 @@
 @foreach (var item in Model) {
         <tr>
             <td>
+                @Html.DisplayFor(modelItem => item.IdOperario)
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.NombreCompleto)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.IdOperario">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdOperario">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdOperario">Delete</a>
+                <a class="btn btn-info" asp-action="Details" asp-route-id="@item.IdOperario">Details</a>
             </td>
         </tr>
 }

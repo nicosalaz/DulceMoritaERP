@@ -1,0 +1,42 @@
+﻿@model DulceMorita.Models.LoteProduccion
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>LoteProduccion</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="FkOrden" class="control-label"></label>
+                <select asp-for="FkOrden" class ="form-control" asp-items="ViewBag.FkOrden"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="CantidadProduccion" class="control-label"></label>
+                <input asp-for="CantidadProduccion" class="form-control" />
+                <span asp-validation-for="CantidadProduccion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaRegistro" class="control-label"></label>
+                <input asp-for="FechaRegistro" class="form-control" />
+                <span asp-validation-for="FechaRegistro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

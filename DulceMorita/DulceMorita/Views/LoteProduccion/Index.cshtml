@@ -1,0 +1,43 @@
+﻿@model IEnumerable<DulceMorita.Models.LoteProduccion>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Lotes de producción</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CantidadProduccion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaRegistro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FkOrdenNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CantidadProduccion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaRegistro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FkOrdenNavigation.IdOrden)
+            </td>
+            <td>
+                    <a class="btn btn-info" asp-action="Details" asp-route-id="@item.IdLote">Deatils</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

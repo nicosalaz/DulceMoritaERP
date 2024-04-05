@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "uTh6yIV+2M+J6LLbx8SSNuMWm7A5Mrvgo4k4S/xxXjeIKUKJWAx7cf3v4Py64tfhFRhHnhl13btnQq3GVNGQnQ==",
+  "dgSpecHash": "I1br/UF/0XsshczvaWT8K3wN20eP0iTOymp6lJZlIzGtMik6+dNFpyGqWT1ijnTTmjI27sikiPZtslauqkq2jw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Administrador\\freelance\\cSharp\\DulceMoritaERP\\DulceMorita\\DulceMorita\\DulceMorita.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrador\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Administrador\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\Administrador\\.nuget\\packages\\bootstrap\\5.3.3\\bootstrap.5.3.3.nupkg.sha512",
     "C:\\Users\\Administrador\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Administrador\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Administrador\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

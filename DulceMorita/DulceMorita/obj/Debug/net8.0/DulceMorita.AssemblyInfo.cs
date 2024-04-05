@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DulceMorita")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2db0f0e368fabd4bc9ab8b55ad3a63d2afe49407")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc3087a554cc2ca8a440008193049dcd4ed78236")]
 [assembly: System.Reflection.AssemblyProductAttribute("DulceMorita")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DulceMorita")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

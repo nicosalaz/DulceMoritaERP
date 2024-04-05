@@ -11,7 +11,7 @@ public partial class LoteProduccion
 
     public int CantidadProduccion { get; set; }
 
-    public DateTime FechaRegistro { get; set; }
+    public string FechaRegistro { get; set; } = null!;
 
     public virtual OrdenProduccion? FkOrdenNavigation { get; set; }
 

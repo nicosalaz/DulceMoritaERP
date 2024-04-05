@@ -25,7 +25,7 @@ public partial class DulceMoritaContext : DbContext
 
     public virtual DbSet<Producto> Productos { get; set; }
 
- /*   protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+/*    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
         => optionsBuilder.UseSqlServer("server=MPC-GSTH\\SQLEXPRESS; database=dulce_morita; Trusted_Connection=SSPI;MultipleActiveResultSets=true;Trust Server Certificate=true");
 */
@@ -33,35 +33,38 @@ public partial class DulceMoritaContext : DbContext
     {
         modelBuilder.Entity<LoteProduccion>(entity =>
         {
-            entity.HasKey(e => e.IdLote).HasName("PK__lote_pro__9A00048617006BB4");
+            entity.HasKey(e => e.IdLote).HasName("PK__lote_pro__9A000486EAFEABC0");
 
             entity.ToTable("lote_produccion");
 
             entity.Property(e => e.IdLote).HasColumnName("id_lote");
             entity.Property(e => e.CantidadProduccion).HasColumnName("cantidad_produccion");
             entity.Property(e => e.FechaRegistro)
-                .HasColumnType("datetime")
+                .HasMaxLength(100)
+                .IsUnicode(false)
                 .HasColumnName("fecha_registro");
             entity.Property(e => e.FkOrden).HasColumnName("fk_orden");
 
             entity.HasOne(d => d.FkOrdenNavigation).WithMany(p => p.LoteProduccions)
                 .HasForeignKey(d => d.FkOrden)
-                .HasConstraintName("FK__lote_prod__fk_or__49C3F6B7");
+                .HasConstraintName("FK__lote_prod__fk_or__02084FDA");
         });
 
         modelBuilder.Entity<Notificacion>(entity =>
         {
-            entity.HasKey(e => e.IdNotificacion).HasName("PK__notifica__8270F9A582531FC5");
+            entity.HasKey(e => e.IdNotificacion).HasName("PK__notifica__8270F9A5556737C4");
 
             entity.ToTable("notificacion");
 
             entity.Property(e => e.IdNotificacion).HasColumnName("id_notificacion");
             entity.Property(e => e.Buenas).HasColumnName("buenas");
             entity.Property(e => e.FFin)
-                .HasColumnType("datetime")
+                .HasMaxLength(100)
+                .IsUnicode(false)
                 .HasColumnName("f_fin");
             entity.Property(e => e.FInicio)
-                .HasColumnType("datetime")
+                .HasMaxLength(100)
+                .IsUnicode(false)
                 .HasColumnName("f_inicio");
             entity.Property(e => e.FkLote).HasColumnName("fk_lote");
             entity.Property(e => e.FkOpe).HasColumnName("fk_ope");
@@ -74,11 +77,11 @@ public partial class DulceMoritaContext : DbContext
 
             entity.HasOne(d => d.FkLoteNavigation).WithMany(p => p.Notificacions)
                 .HasForeignKey(d => d.FkLote)
-                .HasConstraintName("FK__notificac__fk_lo__4CA06362");
+                .HasConstraintName("FK__notificac__fk_lo__04E4BC85");
 
             entity.HasOne(d => d.FkOpeNavigation).WithMany(p => p.Notificacions)
                 .HasForeignKey(d => d.FkOpe)
-                .HasConstraintName("FK__notificac__fk_op__4D94879B");
+                .HasConstraintName("FK__notificac__fk_op__05D8E0BE");
         });
 
         modelBuilder.Entity<Operario>(entity =>
@@ -96,21 +99,21 @@ public partial class DulceMoritaContext : DbContext
 
         modelBuilder.Entity<OrdenProduccion>(entity =>
         {
-            entity.HasKey(e => e.IdOrden).HasName("PK__orden_pr__DD5B8F33D29C765A");
+            entity.HasKey(e => e.IdOrden).HasName("PK__orden_pr__DD5B8F33E12FFE2A");
 
             entity.ToTable("orden_produccion");
 
             entity.Property(e => e.IdOrden).HasColumnName("id_orden");
             entity.Property(e => e.FechaCreacion)
-                .IsRowVersion()
-                .IsConcurrencyToken()
+                .HasMaxLength(100)
+                .IsUnicode(false)
                 .HasColumnName("fecha_creacion");
             entity.Property(e => e.FkProducto).HasColumnName("fk_producto");
             entity.Property(e => e.ProduccionTotal).HasColumnName("produccion_total");
 
             entity.HasOne(d => d.FkProductoNavigation).WithMany(p => p.OrdenProduccions)
                 .HasForeignKey(d => d.FkProducto)
-                .HasConstraintName("FK__orden_pro__fk_pr__3E52440B");
+                .HasConstraintName("FK__orden_pro__fk_pr__7F2BE32F");
         });
 
         modelBuilder.Entity<Producto>(entity =>
