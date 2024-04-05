@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrador\\freelance\\cSharp\\DulceMoritaERP\\DulceMorita\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C5FA831-C581-4DE8-BD3E-1665591498F7}|DulceMorita\\DulceMorita.csproj|c:\\users\\administrador\\freelance\\csharp\\dulcemoritaerp\\dulcemorita\\dulcemorita\\views\\operario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C5FA831-C581-4DE8-BD3E-1665591498F7}|DulceMorita\\DulceMorita.csproj|solutionrelative:dulcemorita\\views\\operario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C5FA831-C581-4DE8-BD3E-1665591498F7}|DulceMorita\\DulceMorita.csproj|c:\\users\\administrador\\freelance\\csharp\\dulcemoritaerp\\dulcemorita\\dulcemorita\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C5FA831-C581-4DE8-BD3E-1665591498F7}|DulceMorita\\DulceMorita.csproj|solutionrelative:dulcemorita\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C5FA831-C581-4DE8-BD3E-1665591498F7}|DulceMorita\\DulceMorita.csproj|c:\\users\\administrador\\freelance\\csharp\\dulcemoritaerp\\dulcemorita\\dulcemorita\\controllers\\operariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C5FA831-C581-4DE8-BD3E-1665591498F7}|DulceMorita\\DulceMorita.csproj|solutionrelative:dulcemorita\\controllers\\operariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrador\\freelance\\cSharp\\DulceMoritaERP\\DulceMorita\\DulceMorita\\Views\\Operario\\Index.cshtml",
+              "RelativeDocumentMoniker": "DulceMorita\\Views\\Operario\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Administrador\\freelance\\cSharp\\DulceMoritaERP\\DulceMorita\\DulceMorita\\Views\\Operario\\Index.cshtml",
+              "RelativeToolTip": "DulceMorita\\Views\\Operario\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T06:03:52.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrador\\freelance\\cSharp\\DulceMoritaERP\\DulceMorita\\DulceMorita\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DulceMorita\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Administrador\\freelance\\cSharp\\DulceMoritaERP\\DulceMorita\\DulceMorita\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DulceMorita\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAABxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T06:00:44.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OperarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\freelance\\cSharp\\DulceMoritaERP\\DulceMorita\\DulceMorita\\Controllers\\OperarioController.cs",
+              "RelativeDocumentMoniker": "DulceMorita\\Controllers\\OperarioController.cs",
+              "ToolTip": "C:\\Users\\Administrador\\freelance\\cSharp\\DulceMoritaERP\\DulceMorita\\DulceMorita\\Controllers\\OperarioController.cs",
+              "RelativeToolTip": "DulceMorita\\Controllers\\OperarioController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T06:00:15.547Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+*TABLAS*
+-Producto (id, nombre)
+-OrdenProduccion (id,fk_prod,produccion_total,fecha_creacion)
+-NotificacionProduccion (id,fk_lote,fk_ope,buenas,malas,f_inicio,f_fin,gastos_adicionales,obseraciones)
+-Lote_produccion(id_lote,fk_orden,cantidad_produccion,fecha_creacion)
+-Operario(id,nombre)
+
+conexion C#
+Scaffold-DbContext "server=MPC-GSTH\SQLEXPRESS; database=dulce_morita; Trusted_Connection=SSPI;MultipleActiveResultSets=true;Trust Server Certificate=true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
