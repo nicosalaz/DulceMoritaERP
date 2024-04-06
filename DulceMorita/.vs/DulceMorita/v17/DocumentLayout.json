@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Administrador\\freelance\\cSharp\\DulceMoritaERP\\DulceMorita\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0C5FA831-C581-4DE8-BD3E-1665591498F7}|DulceMorita\\DulceMorita.csproj|c:\\users\\administrador\\freelance\\csharp\\dulcemoritaerp\\dulcemorita\\dulcemorita\\views\\ordenproduccions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C5FA831-C581-4DE8-BD3E-1665591498F7}|DulceMorita\\DulceMorita.csproj|solutionrelative:dulcemorita\\views\\ordenproduccions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0C5FA831-C581-4DE8-BD3E-1665591498F7}|DulceMorita\\DulceMorita.csproj|c:\\users\\administrador\\freelance\\csharp\\dulcemoritaerp\\dulcemorita\\dulcemorita\\controllers\\ordenproduccionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C5FA831-C581-4DE8-BD3E-1665591498F7}|DulceMorita\\DulceMorita.csproj|solutionrelative:dulcemorita\\controllers\\ordenproduccionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C5FA831-C581-4DE8-BD3E-1665591498F7}|DulceMorita\\DulceMorita.csproj|c:\\users\\administrador\\freelance\\csharp\\dulcemoritaerp\\dulcemorita\\dulcemorita\\views\\ordenproduccions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C5FA831-C581-4DE8-BD3E-1665591498F7}|DulceMorita\\DulceMorita.csproj|solutionrelative:dulcemorita\\views\\ordenproduccions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C5FA831-C581-4DE8-BD3E-1665591498F7}|DulceMorita\\DulceMorita.csproj|c:\\users\\administrador\\freelance\\csharp\\dulcemoritaerp\\dulcemorita\\dulcemorita\\models\\ordenproduccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C5FA831-C581-4DE8-BD3E-1665591498F7}|DulceMorita\\DulceMorita.csproj|solutionrelative:dulcemorita\\models\\ordenproduccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrador\\freelance\\cSharp\\DulceMoritaERP\\DulceMorita\\DulceMorita\\Views\\OrdenProduccions\\Index.cshtml",
+              "RelativeDocumentMoniker": "DulceMorita\\Views\\OrdenProduccions\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Administrador\\freelance\\cSharp\\DulceMoritaERP\\DulceMorita\\DulceMorita\\Views\\OrdenProduccions\\Index.cshtml",
+              "RelativeToolTip": "DulceMorita\\Views\\OrdenProduccions\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACEAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T05:25:12.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrdenProduccion.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\freelance\\cSharp\\DulceMoritaERP\\DulceMorita\\DulceMorita\\Models\\OrdenProduccion.cs",
+              "RelativeDocumentMoniker": "DulceMorita\\Models\\OrdenProduccion.cs",
+              "ToolTip": "C:\\Users\\Administrador\\freelance\\cSharp\\DulceMoritaERP\\DulceMorita\\DulceMorita\\Models\\OrdenProduccion.cs",
+              "RelativeToolTip": "DulceMorita\\Models\\OrdenProduccion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T05:23:33.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrador\\freelance\\cSharp\\DulceMoritaERP\\DulceMorita\\DulceMorita\\Views\\OrdenProduccions\\Create.cshtml",
+              "RelativeDocumentMoniker": "DulceMorita\\Views\\OrdenProduccions\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Administrador\\freelance\\cSharp\\DulceMoritaERP\\DulceMorita\\DulceMorita\\Views\\OrdenProduccions\\Create.cshtml",
+              "RelativeToolTip": "DulceMorita\\Views\\OrdenProduccions\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T05:21:36.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "OrdenProduccionsController.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\freelance\\cSharp\\DulceMoritaERP\\DulceMorita\\DulceMorita\\Controllers\\OrdenProduccionsController.cs",
               "RelativeDocumentMoniker": "DulceMorita\\Controllers\\OrdenProduccionsController.cs",
               "ToolTip": "C:\\Users\\Administrador\\freelance\\cSharp\\DulceMoritaERP\\DulceMorita\\DulceMorita\\Controllers\\OrdenProduccionsController.cs",
               "RelativeToolTip": "DulceMorita\\Controllers\\OrdenProduccionsController.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAwwEMAAAA5AAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAADwv0cAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T21:00:52.994Z",
+              "WhenOpened": "2024-04-06T05:20:49.796Z",
               "EditorCaption": ""
             }
           ]

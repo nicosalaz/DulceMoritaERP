@@ -11,6 +11,9 @@
     <thead>
         <tr>
             <th>
+                @Html.DisplayNameFor(model => model.IdLote)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.CantidadProduccion)
             </th>
             <th>
@@ -25,6 +28,9 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdLote)
+                </td>
             <td>
                 @Html.DisplayFor(modelItem => item.CantidadProduccion)
             </td>

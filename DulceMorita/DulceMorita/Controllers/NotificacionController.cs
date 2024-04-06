@@ -49,7 +49,7 @@ namespace DulceMorita.Controllers
         public IActionResult Create()
         {
             ViewData["FkLote"] = new SelectList(_context.LoteProduccions, "IdLote", "IdLote");
-            ViewData["FkOpe"] = new SelectList(_context.Operarios, "IdOperario", "IdOperario");
+            ViewData["FkOpe"] = new SelectList(_context.Operarios, "IdOperario", "NombreCompleto");
             return View();
         }
 
@@ -62,6 +62,8 @@ namespace DulceMorita.Controllers
         {
             if (ModelState.IsValid)
             {
+                LoteProduccion loteProduccion = await _context.LoteProduccions.Include(n => n.FkOrdenNavigation).FirstOrDefaultAsync(m => m.IdLote == notificacion.FkLote);
+                notificacion.Buenas = loteProduccion.CantidadProduccion - notificacion.Malas;
                 _context.Add(notificacion);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));

@@ -14,6 +14,7 @@ namespace DulceMorita.Controllers
         private readonly DulceMoritaContext _context;
         private const string formatDate = "yyyy-MM-dd hh:mm:ss";
         private LoteProduccion loteProduccion = new LoteProduccion();
+        private int divInteger = 0;
         public OrdenProduccionsController(DulceMoritaContext context)
         {
             _context = context;
@@ -66,7 +67,26 @@ namespace DulceMorita.Controllers
                 Console.WriteLine(ordenProduccion.FechaCreacion.ToString());
                 await _context.SaveChangesAsync();
                 Console.WriteLine(ordenProduccion.IdOrden.ToString());
-
+                int randomNum = 0;
+                bool isValidValue = false;
+                while (!isValidValue)
+                {
+                    randomNum = generateRandomNum();
+                    if (ordenProduccion.ProduccionTotal % randomNum == 0)
+                    {
+                        divInteger = ordenProduccion.ProduccionTotal / randomNum;
+                        isValidValue = true;
+                    }
+                }
+                for (global::System.Int32 i = 0; i < randomNum; i++)
+                {
+                    loteProduccion = new LoteProduccion(); 
+                    loteProduccion.FkOrden = ordenProduccion.IdOrden;
+                    loteProduccion.CantidadProduccion = ordenProduccion.ProduccionTotal / randomNum;
+                    loteProduccion.FechaRegistro = DateTime.Now.ToString(formatDate);
+                    _context.Add(loteProduccion);
+                    await _context.SaveChangesAsync();
+                }
                 return RedirectToAction(nameof(Index));
             }
             ViewData["FkProducto"] = new SelectList(_context.Productos, "IdProducto", "IdProducto", ordenProduccion.FkProducto);
@@ -163,6 +183,12 @@ namespace DulceMorita.Controllers
         private bool OrdenProduccionExists(int id)
         {
             return _context.OrdenProduccions.Any(e => e.IdOrden == id);
+        }
+
+        private int generateRandomNum()
+        {  
+            var random = new Random();
+            return random.Next(1, 5);
         }
     }
 }
